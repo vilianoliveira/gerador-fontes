@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+}
+
+#res{
+    font-size: 50px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    background-image: linear-gradient(to left, transparent, lightblue, transparent);
+}
+
+body{
+    background-color: lightblue;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    max-width: 50px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: linear-gradient(to top, lightblue, transparent);
+}
+a:hover{
+    background-image: linear-gradient(to bottom, lightblue, transparent);
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+div{
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}

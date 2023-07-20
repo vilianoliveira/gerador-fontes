@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo de fontes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Estilo de fontes</h1>
+    </header>
+    <main>
+        <label for="txt">Adicione o texto que deseja verificar a fonte:</label><br>
+        <input type="text" name="txt" id="txt">
+
+        <h2>Opções de fontes</h2>
+        <input type="radio" name="font" id="font1" checked>
+        <label for="font1">Arial</label>
+
+        <input type="radio" name="font" id="font2">
+        <label for="font2">Corier</label><br>
+
+        <input type="radio" name="font" id="font3">
+        <label for="font3">Franklin Gothic</label>
+
+        <input type="radio" name="font" id="font4">
+        <label for="font4">Gill Sans</label>
+
+        <input type="radio" name="font" id="font5">
+        <label for="font5">Impact</label><br>
+
+        <input type="radio" name="font" id="font6">
+        <label for="font6">Monospace</label><br>
+
+        <input type="button" value="Gerar fonte" onclick="gerar()">
+        <a href="index.html">Reset</a>
+
+        <div id="res" > Adicione o texto para ver o resultado.</div>
+    </main>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
